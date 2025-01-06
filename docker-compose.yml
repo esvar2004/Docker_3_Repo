@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  dev-container:
+    image: python-image
+    volumes:
+      - .:/workspace/repo
+    command: sleep infinity
+    stdin_open: true
+    tty: true
